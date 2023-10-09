@@ -1,0 +1,1 @@
+const url = "https://api.currencyapi.com/v3/latest?apikey=cur_live_gIccEybwSX0VWXphf7LDOxMrbDwarOKxG8Mxauyr"

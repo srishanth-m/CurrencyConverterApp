@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Roboto&display=swap');
+
+*{
+    /* background-color: antiquewhite; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(254, 246, 234);
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0px 23px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: rgb(134, 70, 194);
+}
+.logo{
+    margin: 0px 23px;
+}
+.container{
+    min-height: 100vh;
+    font-family: 'Baloo 2', cursive;
+    /* background-color: rgb(181, 181, 255); */
+    max-width: 80vw;
+    margin: auto;
+}
+
+.container h1{
+    /* text-align: center; */
+}
+
+footer{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container form input[type= 'number'] , select , label{
+    font-size: 20px;
+    margin: 7.5px 0px;
+    width: 25vw;
+}
+
+.container form label{
+    font-size: 25px;
+    margin: 7.5px 0px;
+}
+
+.btn{
+    width: 10vw;
+    margin: 15px 0px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color:   rgb(254, 246, 234);
+    cursor: pointer;
+}
