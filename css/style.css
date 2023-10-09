@@ -39,6 +39,7 @@ nav a:hover{
 }
 .logo{
     margin: 0px 23px;
+    font-size: 20px
 }
 .container{
     min-height: 100vh;
@@ -46,11 +47,12 @@ nav a:hover{
     /* background-color: rgb(181, 181, 255); */
     max-width: 80vw;
     margin: auto;
+    font-weight: 600;
 }
 
-.container h1{
+/* .container h1{
     /* text-align: center; */
-}
+/* } */ 
 
 footer{
     text-align: center;
@@ -80,3 +82,19 @@ form{
     background-color:   rgb(254, 246, 234);
     cursor: pointer;
 }
+
+.output table{
+    width: 50vw;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.output table caption{
+    font-size: 25px;
+}
+
+.output{
+    display: none;
+}
+
